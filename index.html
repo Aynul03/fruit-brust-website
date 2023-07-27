@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+      <!-- DaisyUI & Tailwind -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+       <!-- Fonts from google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+      <!-- Custom Materials -->
+      <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        "primary-color": "#F85559",
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="container md:mx-auto">
+        <nav>
+            <div class="navbar block py-7 px-8 mt-8 rounded-full lg:flex justify-between lg:bg-[#F85559]">
+                <!-- Dropdown Menu -->
+                <div class="dropdown flex flex-row-reverse items-center justify-between">
+                    <div>
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32 right-3">
+                            <li><a>Hero</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+
+       <!-- list of navbar -->
+        <ul class="hidden lg:contents menu menu-horizontal px-1 text-lg text-white font-normal">
+            <li><a>Hero</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+        </ul>
+
+           <!-- logo small device -->
+           <div class="flex items-center lg:hidden">
+            <img src="images/logo.png" alt="Fruit Icon" class="h-15 mr-3">
+            <h2 class="text-4xl font-bold">Fruit Brust</h2>
+        </div>
+    </div>
+    <!-- logo large device -->
+    <div class="hidden lg:flex">
+        <div class="flex items-center">
+            <img src="images/logo.png" alt="Fruit Icon" class="h-15 mr-3">
+            <h2 class="text-4xl font-bold text-white">Fruit Brust</h2>
+        </div>
+    </div>
+    <!-- Search Box -->
+    <div class="form-control hidden lg:contents">
+        <input type="text" placeholder="Search here"
+            class="input input-bordered rounded-full md:w-96 text-lg" />
+    </div>
+</div>
+</nav>
+      
+
+                        
+
+    <main>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
